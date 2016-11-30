@@ -1,0 +1,18 @@
+/*==========header==============*/
+#header{height: auto;width: 100%;}
+#header img{width: 16rem;height: 8rem;}
+
+/*==========content==============*/
+#content{height: auto;width: 15.6;padding: 0.5rem 0.2rem;height: auto;background:url(../img/7.jpg) no-repeat center center;background-size: 100% 100%;overflow: hidden;}
+#content .search{height: 3rem;width: 14.6rem;padding: 0.5rem;background: rgba(30,30,30,0.8);border-radius: 0.3rem;}
+#content .search .sea_box{height: 2rem;line-height: 1.5rem;margin-top: 0.5rem;background: #CF2A0E;border-radius: 1rem;border: 0.06rem solid #ccc;padding-left: 1rem;}
+#content .search .sea_box input{height: 2rem;width: 11rem;background: #CF2A0E;color: #fff;float: left;font-size: 0.8rem;}
+#content .search .sea_box span{display: block;float: right;height: 2rem;width: 2rem;background: url(../img/放大镜.png) no-repeat center center;background-size: 60% 60%;}
+
+#content .shop{width: 15.6rem;height: 5rem;margin-top: 1rem;}
+#content .shop ul{width: 5rem;padding: 0 0.1rem;float: left;}
+#content .shop ul img{width: 4.9rem;margin: 0.2rem auto;}
+
+
+
+

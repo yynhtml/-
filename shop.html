@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>佰草集</title>
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<script src="js/swiper-3.4.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<script>        
+			$(function(){
+				var mySwiper = new Swiper ('.swiper-container', {
+				  	loop:true,
+					onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+					    swiperAnimateCache(swiper); //隐藏动画元素 
+					    swiperAnimate(swiper); //初始化完成开始动画
+					}, 
+					onSlideChangeEnd: function(swiper){ 
+					    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+					} 
+				}) 
+			})
+		</script>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/adb48fc8f84ade7daa3d6d278c7d457a.jpg"/>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/adb48fc8f84ade7daa3d6d278c7d457a.jpg"/>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/adb48fc8f84ade7daa3d6d278c7d457a.jpg"/>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/adb48fc8f84ade7daa3d6d278c7d457a.jpg"/>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="txt">
+				佰草集品牌属于上海佰草集化妆品有限公司。上海佰草集化妆品有限公司是上海家化联合股份有限公司的全资子公司。1998年正式创立，“现代中草药古方个人护理专家”为概念推出市场。
+			</div>
+		</div>
+	</body>
+</html>
